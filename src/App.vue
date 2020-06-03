@@ -1,20 +1,20 @@
 <template>
     <div id="app">
         <TheNavBar class="mb-6" />
-        <HelloWorld msg="Welcome to Your Vue.js App" class="text-center"/>
+        <Card />
     </div>
 </template>
 
 <script>
-    import HelloWorld from './components/HelloWorld.vue'
     import TheNavBar from '@/components/TheNavBar'
+    import Card from './components/BaseCard'
 
     export default {
         name: 'App',
 
         components: {
-            HelloWorld,
-            TheNavBar
+            TheNavBar,
+            Card
         }
     }
 </script>

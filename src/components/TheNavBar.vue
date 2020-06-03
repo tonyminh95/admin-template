@@ -2,7 +2,7 @@
     <nav class="bg-white p-8 border-b border-gray-400">
         <div class="m-auto w-2/4 flex items-center justify-between">
             <div>
-                <font-awesome-icon :icon="['fab', 'instagram']" size="3x" />
+                <font-awesome-icon :icon="['fab', 'instagram']" size="2x" />
             </div>
 
             <div class="w-1/5">
@@ -12,9 +12,9 @@
             </div>
 
             <div class="flex items-center justify-between">
-                <font-awesome-icon :icon="['far', 'compass']" size="3x" class="mr-10" />
-                <font-awesome-icon :icon="['far', 'heart']" size="3x" class="mr-10" />
-                <font-awesome-icon :icon="['far', 'user']" size="3x" />
+                <font-awesome-icon :icon="['far', 'compass']" size="2x" class="mr-10" />
+                <font-awesome-icon :icon="['far', 'heart']" size="2x" class="mr-10" />
+                <font-awesome-icon :icon="['far', 'user']" size="2x" />
             </div>
         </div>
         <!-- <div class="flex items-center flex-shrink-0 text-white mr-6">
