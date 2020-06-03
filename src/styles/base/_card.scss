@@ -1,0 +1,15 @@
+.card {
+    @apply m-auto border rounded bg-white;
+
+    &__header {
+        @apply h-24 p-4 border-b;
+    }
+
+    &__body {
+        @apply p-4;
+    }
+
+    &__footer {
+        @apply p-4 border-t;
+    }
+}

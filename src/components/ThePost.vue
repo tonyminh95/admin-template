@@ -1,6 +1,6 @@
 <template>
-    <div style="width: 500px;" class="m-auto border rounded bg-white">
-        <div class="h-24 p-4 border-b">
+    <BaseCard>
+        <div slot="header">
             <div class="flex items-center justify-between">
                 <div class="flex items-center justify-start">
                     <div class="w-16 h-16 border rounded-full"></div>
@@ -15,7 +15,7 @@
             </div>
         </div>
 
-        <div class="p-4">
+        <div slot="body">
             <div class="h-64 border"></div>
 
             <div class="flex items-center justify-between mt-4">
@@ -43,15 +43,23 @@
             </div>
         </div>
 
-        <div class="p-4 border-t flex items-center justify-between">
-            <div class="text-gray-500">Add a comment ...</div>
-            <div class="text-blue-300">POST</div>
+        <div slot="footer">
+            <div class="flex items-center justify-between">
+                <div class="text-gray-500">Add a comment ...</div>
+                <div class="text-blue-300">POST</div>
+            </div>
         </div>
-    </div>
+    </BaseCard>
 </template>
 
 <script>
+    import BaseCard from '@/components/base/BaseCard'
+
     export default {
-        name: 'BaseCard',
+        name: 'ThePost',
+
+        components: {
+            BaseCard
+        }
     }
 </script>

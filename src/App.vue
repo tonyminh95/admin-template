@@ -1,20 +1,24 @@
 <template>
     <div id="app">
         <TheNavBar class="mb-6" />
-        <Card />
+        <Post />
     </div>
 </template>
 
 <script>
     import TheNavBar from '@/components/TheNavBar'
-    import Card from './components/BaseCard'
+    import Post from './components/ThePost'
 
     export default {
         name: 'App',
 
         components: {
             TheNavBar,
-            Card
+            Post
         }
     }
 </script>
+
+<style lang="sass">
+    @import "@/styles/main.scss";
+</style>
